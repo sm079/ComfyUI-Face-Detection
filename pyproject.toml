@@ -7,9 +7,11 @@ dependencies = ["opencv-python", "scikit-image"]
 
 [project.urls]
 Repository = "https://github.com/sm079/ComfyUI-Face-Detection"
-#  Used by Comfy Registry https://comfyregistry.org
+
+#  Used by Comfy Registry https://registry.comfy.org
 
 [tool.comfy]
 PublisherId = "sm079"
 DisplayName = "ComfyUI-Face-Detection"
 Icon = ""
+includes = []
