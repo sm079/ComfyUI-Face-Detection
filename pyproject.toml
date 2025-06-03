@@ -1,16 +1,17 @@
 [project]
-name = "face-detection"
-description = ""
+name = "ComfyUI-Face-Detection"
+description = "face detection nodes for comfyui"
 version = "1.0.0"
 license = {file = "LICENSE"}
 dependencies = ["opencv-python", "scikit-image"]
 
 [project.urls]
 Repository = "https://github.com/sm079/ComfyUI-Face-Detection"
+
 #  Used by Comfy Registry https://registry.comfy.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "sm079"
 DisplayName = "ComfyUI-Face-Detection"
 Icon = ""
 includes = []
